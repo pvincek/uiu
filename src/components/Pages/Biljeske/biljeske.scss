@@ -1,0 +1,63 @@
+@import '../../EventForm/Form.scss';
+.biljeske{
+     input {
+        @include form;
+        min-width: 300px;
+        width: 33%;
+        margin-right: 1em;
+        @media only screen and (max-width: 750px){
+            
+            width: 95%;
+        
+    }
+
+    }
+
+    @media only screen and (max-width: 750px){
+        button{
+            margin-bottom: 1em;
+            margin-top: 0;
+        }
+    }
+    li{
+        list-style: none;
+        text-indent:unset;
+        padding: 1em;
+        border: none;
+        border-radius: 10px;
+        margin: 1em 0;
+        width: 33%;
+        @media only screen and (max-width: 750px){
+            
+                width: 90%;
+            
+        }
+        
+    }
+
+    .clrBtn{
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        margin: .1em .3em;
+
+        .active{
+            border: solid #1e1e1e 10px;
+
+        }
+    }
+    .icon{
+        margin: 0 .3em;
+        cursor: pointer;
+    }
+    span{
+        margin: 0 .3em;
+    }
+
+    .cont{
+        max-height: 33vh;
+        overflow: auto;
+    }
+}

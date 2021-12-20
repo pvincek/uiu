@@ -1,0 +1,84 @@
+.modalTrigger {
+  width: 3em;
+  height: 3em;
+  cursor: pointer;
+  padding: .5em;
+  border: solid 2px;
+  border-radius: 10px;
+  margin-top: 1%;
+  color: #3164AD;
+  border-color: #3164AD;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+  margin-right: 1em;
+}
+
+.modalTrigger:hover {
+  background-color: #3164AD;
+  color: #f4f4f4;
+}
+
+.primary {
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 12px 20px;
+  margin-right: 1em;
+  border-color: #3174AD;
+  cursor: pointer;
+  margin-top: 2em;
+  background-color: #3174AD;
+  color: #f4f4f4;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.primary:hover {
+  background-color: #2c6a9c;
+}
+
+.secondary {
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 12px 20px;
+  margin-right: 1em;
+  border-color: #3174AD;
+  cursor: pointer;
+  margin-top: 2em;
+  border: none;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.secondary:hover {
+  background-color: #cfcece;
+}
+
+.calendarModule {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: block;
+}
+
+@media only screen and (min-width: 750px) {
+  .calendarModule {
+    margin: 0 2em;
+  }
+}
+
+.trash {
+  -webkit-transform: translateX(820%);
+          transform: translateX(820%);
+  cursor: pointer;
+  border: none;
+  color: #1e1e1e;
+}
+/*# sourceMappingURL=CalendarModule.css.map */

@@ -1,0 +1,70 @@
+@mixin baseBtn {
+    border-radius: 10px;
+    border: solid 1px;
+    padding: 12px 20px;
+    margin-right: 1em;
+    border-color: #3174AD;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+@mixin primaryBtn {
+    background-color: #3174AD;
+    color: #f4f4f4;
+    transition: ease-in;
+    transition-duration: 100ms;
+}
+
+@mixin form{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: solid 1px;
+    background-color: #f4f4f4;
+    
+}
+
+@mixin secondaryBtn {
+    border: none;
+    transition: ease-in;
+    transition-duration: 100ms;
+}
+
+.modalForm{
+   
+
+.primary{
+    @include baseBtn;
+    @include primaryBtn;
+
+
+
+}
+.primary:hover{
+    
+        background-color: #2c6a9c
+    
+}
+.secondary{
+    @include baseBtn;
+    border: none;
+    transition: ease-in;
+    transition-duration: 100ms;
+}
+.secondary:hover{
+    background-color: #cfcece;
+    
+}
+
+.date-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0.2em;
+}
+textarea{
+    @include form;
+}
+
+}

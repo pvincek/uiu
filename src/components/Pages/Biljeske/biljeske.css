@@ -1,0 +1,128 @@
+.modalForm .primary {
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 12px 20px;
+  margin-right: 1em;
+  border-color: #3174AD;
+  cursor: pointer;
+  margin-top: 2em;
+  background-color: #3174AD;
+  color: #f4f4f4;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.modalForm .primary:hover {
+  background-color: #2c6a9c;
+}
+
+.modalForm .secondary {
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 12px 20px;
+  margin-right: 1em;
+  border-color: #3174AD;
+  cursor: pointer;
+  margin-top: 2em;
+  border: none;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.modalForm .secondary:hover {
+  background-color: #cfcece;
+}
+
+.modalForm .date-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  gap: 0.2em;
+}
+
+.modalForm textarea {
+  width: 100%;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: solid 1px;
+  background-color: #f4f4f4;
+}
+
+.biljeske input {
+  width: 100%;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: solid 1px;
+  background-color: #f4f4f4;
+  min-width: 300px;
+  width: 33%;
+  margin-right: 1em;
+}
+
+@media only screen and (max-width: 750px) {
+  .biljeske input {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .biljeske button {
+    margin-bottom: 1em;
+    margin-top: 0;
+  }
+}
+
+.biljeske li {
+  list-style: none;
+  text-indent: unset;
+  padding: 1em;
+  border: none;
+  border-radius: 10px;
+  margin: 1em 0;
+  width: 33%;
+}
+
+@media only screen and (max-width: 750px) {
+  .biljeske li {
+    width: 90%;
+  }
+}
+
+.biljeske .clrBtn {
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  margin: .1em .3em;
+}
+
+.biljeske .clrBtn .active {
+  border: solid #1e1e1e 10px;
+}
+
+.biljeske .icon {
+  margin: 0 .3em;
+  cursor: pointer;
+}
+
+.biljeske span {
+  margin: 0 .3em;
+}
+
+.biljeske .cont {
+  max-height: 33vh;
+  overflow: auto;
+}
+/*# sourceMappingURL=biljeske.css.map */

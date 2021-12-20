@@ -1,0 +1,137 @@
+.modalForm input, .modalForm select {
+  width: 100%;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: solid 1px;
+  background-color: #f4f4f4;
+}
+
+.modalForm .primary {
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 12px 20px;
+  margin-right: 1em;
+  border-color: #3174AD;
+  cursor: pointer;
+  margin-top: 2em;
+  background-color: #3174AD;
+  color: #f4f4f4;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.modalForm .primary:hover {
+  background-color: #2c6a9c;
+}
+
+.modalForm .secondary {
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 12px 20px;
+  margin-right: 1em;
+  border-color: #3174AD;
+  cursor: pointer;
+  margin-top: 2em;
+  border: none;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.modalForm .secondary:hover {
+  background-color: #cfcece;
+}
+
+.lock {
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  background-image: url("./background.jpg");
+  background-position: top;
+  background-size: cover;
+}
+
+.lock .login {
+  padding: 0.1em;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+  padding: 1em;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.lock .loginBtn {
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 12px 20px;
+  margin-right: 1em;
+  border-color: #3174AD;
+  cursor: pointer;
+  margin-top: 2em;
+  background-color: #3174AD;
+  color: #f4f4f4;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.lock .secondary {
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 12px 20px;
+  margin-right: 1em;
+  border-color: #3174AD;
+  cursor: pointer;
+  margin-top: 2em;
+  border: none;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+
+.lock .inputs input, .lock .inputs select {
+  width: 100%;
+  padding: 12px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: solid 1px;
+  background-color: #f4f4f4;
+}
+
+.lock .checky {
+  width: initial;
+  margin-top: 0.6em;
+}
+
+.lock a {
+  width: 100%;
+  margin: 20px 5px;
+  text-decoration: none;
+  color: #3174AD;
+}
+/*# sourceMappingURL=LockScreen.css.map */

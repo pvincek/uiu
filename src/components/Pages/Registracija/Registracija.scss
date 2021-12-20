@@ -1,0 +1,42 @@
+@import '../../EventForm/Form.scss';
+.registracija{
+    .radios{
+        // display: inline;
+        width: initial;
+        margin: 0;
+        padding: 0;
+    }
+    input, select{
+        @include form;
+    }
+    .primary{
+        @include baseBtn;
+        @include primaryBtn;
+    }
+
+    .secondary{
+        @include baseBtn;
+        @include secondaryBtn;
+    }
+
+    margin: 0;
+    padding: 1em;
+    justify-content: top;
+    align-content: top;
+    align-items: center;
+    box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+    background-color: #f4f4f4;
+    border-radius: 10px;
+
+}
+
+.background{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../LockScreen/background.jpg');
+    background-position: top;
+    background-size: cover;
+}

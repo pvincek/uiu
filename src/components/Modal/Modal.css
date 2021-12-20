@@ -1,0 +1,48 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modalCard {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 0.1em;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  z-index: 2000;
+  width: 100%;
+  max-width: 350px;
+  -webkit-box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.modalCard .innerContent {
+  margin: 0;
+  padding: 1em;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+  -ms-flex-line-pack: top;
+      align-content: top;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modalCard .close {
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+  cursor: pointer;
+  position: relative;
+  left: 95%;
+}
+/*# sourceMappingURL=Modal.css.map */
